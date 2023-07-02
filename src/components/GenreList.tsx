@@ -1,5 +1,5 @@
 import useGenres from "../hooks/useGenres";
-import { Genre } from "../models/Genre";
+import Genre from "../models/Genre";
 import {
   Button,
   HStack,
