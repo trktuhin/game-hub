@@ -8,7 +8,6 @@ const GameTrailer = ({ gameId }: Props) => {
   const { data, error, isLoading } = useTrailers(gameId);
   const first = data?.results[0];
 
-  console.log(data);
   if (isLoading) return null;
 
   if (error) throw error;
