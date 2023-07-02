@@ -13,7 +13,7 @@ const GameTrailer = ({ gameId }: Props) => {
   if (error) throw error;
 
   return first ? (
-    <video src={first.data[480]} poster={first.preview} controls />
+    <video width="100%" src={first.data[480]} poster={first.preview} controls />
   ) : null;
 };
 
